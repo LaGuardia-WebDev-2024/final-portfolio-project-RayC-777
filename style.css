@@ -42,15 +42,8 @@ li a:hover:not(.active) {
 h1 {
   color: aliceblue;
  font-size: 7em;
+ font-family: eloquent-jf-small-caps-pro;
 
 }
 
 
-@font-face { font-family: 'Argent CF';
-    src: local('Argent CF Demi Bold'), local('Argent-CF-Demi-Bold'),
-        url('ArgentCF-DemiBold.woff2') format('woff2'),
-        url('ArgentCF-DemiBold.woff') format('woff'),
-        url('ArgentCF-DemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
