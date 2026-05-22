@@ -13,7 +13,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 999;
@@ -24,11 +24,15 @@ li {
 }
 
 li a {
-  display: block;
+ display::
+  justify-content: center;
+  align-items: center;
+  height: 66vh;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  height: "100";
 }
 
 li a:hover:not(.active) {
@@ -49,7 +53,7 @@ h1 {
 .merriweather-<uniquifier> {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: "300";
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
