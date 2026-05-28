@@ -46,6 +46,42 @@ Select ONE Additional Feature to Add
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
      }
 
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0606;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+li {
+  float: left;
+}
+
+li a {
+ display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: white;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  height: "20";
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 235, 168);
+}
+
+.active {
+  background-color: rgb(104, 64, 19);
+
+
      
     
     </style>
