@@ -40,11 +40,29 @@ Select ONE Additional Feature to Add
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 62vh;
+        height: 46vh;
+        
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
      }
+
+.image-bordered-heading {
+  /* 1. Shrink and center the heading box on the page */
+  width: fit-content;
+  margin: 0 auto;
+  padding: 15px 25px; /* Adds space so text doesn't touch the border */
+
+  /* 2. Create a fallback border (Required for border-image to work) */
+  border: 15px solid transparent;
+
+  /* 3. Apply the image border */
+  border-image-source: url('https://static.vecteezy.com/system/resources/thumbnails/069/992/036/small/3d-retro-gold-signboard-with-glowing-light-bulbs-vintage-billboard-for-cinema-casino-marquee-nightclub-or-party-festival-high-quality-render-with-golden-frame-png.png'); /* Path to your image */
+  border-image-slice: 120; /* How to slice the image (in pixels) */
+  border-image-repeat: round; /* Repeats the image cleanly to fit the box */
+}
+
 
      ul {
   list-style-type: none;
@@ -53,7 +71,7 @@ Select ONE Additional Feature to Add
   overflow: hidden;
   background-color: rgb(255, 244, 224);
   position: relative; 
-  top: 490px;     
+  top: 420px;     
   width: 20%;
 
   z-index: 999;
@@ -78,21 +96,22 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #D8BC5F);
+  
 }
 
 .active {
-  background-color: rgb(245, 194, 56);
+  background-color: rgb(255, 226, 132);
 }
 
 
-     
+
+ 
     
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
-    <ul>
+    <ul class="image-bordered-heading">
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
       <li><a href="reels.html">Reels</a></li>
