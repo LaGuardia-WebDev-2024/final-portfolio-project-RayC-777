@@ -40,7 +40,7 @@ Select ONE Additional Feature to Add
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 66vh;
+        height: 62vh;
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
@@ -48,38 +48,42 @@ Select ONE Additional Feature to Add
 
      ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background-color: #ff0606;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  background-color: rgb(255, 244, 224);
+  position: relative; 
+  top: 490px;     
+  width: 20%;
+
   z-index: 999;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-li {
-  float: left;
-}
+
 
 li a {
  display:flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  color: white;
+  height: 5%;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 4px 6px;
   text-decoration: none;
-  height: "20";
+  height: "90";
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(255, 235, 168);
+  background-color: #D8BC5F);
 }
 
 .active {
-  background-color: rgb(104, 64, 19);
+  background-color: rgb(245, 194, 56);
+}
 
 
      
@@ -93,20 +97,7 @@ li a:hover:not(.active) {
       <li><a href="aboutme.html">About Me</a></li>
       <li><a href="reels.html">Reels</a></li>
       <li><a href="resume.html">Resume</a></li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
+    
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
